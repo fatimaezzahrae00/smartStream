@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Smart Stream</title>
+</head>
+<body class="bg-slate-950 text-white min-h-screen flex flex-col">
+    <header class="flex justify-between items-center px-6 py-3 border-b border-white/10 bg-slate-950">
+        <img class="rounded-lg" src="play.jpg" alt="logo" height="50px" width="40px">
+        <nav class=" flex items-center gap-4 ">
+            <button class=md:hover:bg-blue-600 bg-blue-800 text-red-300 rounded-lg px-2 py-1">En direct</button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-red-300 rounded-lg px-2 py-1">Sports</button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-red-300 rounded-lg px-2 py-1">Documentaires</button>
+    
+        </nav>
+
+    </header>
+    <div class="grid grid-cols-[1fr_4fr]">
+    <aside class="flex flex-col border-r border-gray-800 gap-4 p-4">
+        <p class="text-xl font-bold text-blue-700">Guide TV</p>
+        
+        <div class="flex items-end justify-between">
+        <h2 class="text-md font-bold md:text-md lg:text-lg text-white">Chaines en direct</h2>
+        <span class="text-sm md:text-md lg:text-md text-gray-200">8 Chaines</span>
+        </div>
+        <label></label>
+       <input type="text"
+       placeholder="Rechercher une chaine .. "
+       class="border border-gray-300 rounded-lg px-4 py-2 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-white">
+        <div class="flex gap-2">
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Toutes</button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Sports</button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Documentaires</button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Actualitées</button>
+        </div>
+        <div class="flex flex-col gap-2" >
+              <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
+                <span>Discovery ID FHD</span>
+                <span>Arctique : territoire sauvage</span>
+              </button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
+                 <span>Discovery ID FHD</span>
+                <span>Arctique : territoire sauvage</span>
+            </button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
+                 <span>Discovery ID FHD</span>
+                <span>Arctique : territoire sauvage</span>
+            </button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
+                 <span>Discovery ID FHD</span>
+                <span>Arctique : territoire sauvage</span>
+            </button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
+                <span>Discovery ID FHD</span>
+                <span>Arctique : territoire sauvage</span>
+              </button>
+            <button class=":md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
+                 <span>Discovery ID FHD</span>
+                <span>Arctique : territoire sauvage</span>
+            </button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
+                 <span>Discovery ID FHD</span>
+                <span>Arctique : territoire sauvage</span>
+            </button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
+                 <span>Discovery ID FHD</span>
+                <span>Arctique : territoire sauvage</span>
+            </button>
+        </div>
+        </aside>
+    <main class="p-4 ">
+        <small class="bg-red-600 rounded-md absolute px-2 py-1 m-1">Live</small>
+        <img class="rounded-lg h-100 w-300 " src="real.jpeg" alt="">
+    </main>
+    </div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+
+[
+  {
+    "id": "4",
+    "channelNumber": "1068",
+    "name": "FR - NATIONAL GEOGRAPHIC FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=NatGeo",
+    "previewImage": "https://via.placeholder.com/800x450?text=National+Geographic",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les secrets de la planète",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "progressPercentage": 35
+    }
+  },
+  {
+    "id": "5",
+    "channelNumber": "1069",
+    "name": "FR - ANIMAUX FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=Animaux",
+    "previewImage": "https://via.placeholder.com/800x450?text=Animaux",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Au cœur de la savane",
+      "startTime": "20:45",
+      "endTime": "21:40",
+      "progressPercentage": 55
+    }
+  },
+  {
+    "id": "6",
+    "channelNumber": "1070",
+    "name": "FR - PLANETE+ FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=Planete",
+    "previewImage": "https://via.placeholder.com/800x450?text=Planete",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Mystères de l'univers",
+      "startTime": "21:10",
+      "endTime": "22:05",
+      "progressPercentage": 25
+    }
+  },
+  {
+    "id": "7",
+    "channelNumber": "1071",
+    "name": "FR - HISTOIRE TV FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=Histoire",
+    "previewImage": "https://via.placeholder.com/800x450?text=Histoire",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les grandes batailles de l'histoire",
+      "startTime": "20:55",
+      "endTime": "21:50",
+      "progressPercentage": 45
+    }
+  },
+  {
+    "id": "8",
+    "channelNumber": "1072",
+    "name": "FR - USHUAIA TV FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=Ushuaia",
+    "previewImage": "https://via.placeholder.com/800x450?text=Ushuaia",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Voyage au bout du monde",
+      "startTime": "21:15",
+      "endTime": "22:10",
+      "progressPercentage": 15
+    }
+  },
+  {
+    "id": "9",
+    "channelNumber": "1073",
+    "name": "FR - SCIENCE ET VIE TV FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=Science",
+    "previewImage": "https://via.placeholder.com/800x450?text=Science+Vie",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les découvertes scientifiques",
+      "startTime": "20:40",
+      "endTime": "21:35",
+      "progressPercentage": 70
+    }
+  },
+  {
+    "id": "10",
+    "channelNumber": "1074",
+    "name": "FR - RMC STORY FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=RMC+Story",
+    "previewImage": "https://via.placeholder.com/800x450?text=RMC+Story",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Enquêtes criminelles",
+      "startTime": "21:00",
+      "endTime": "22:15",
+      "progressPercentage": 30
+    }
+  },
+  {
+    "id": "11",
+    "channelNumber": "1075",
+    "name": "FR - NATIONAL GEOGRAPHIC WILD FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=NatGeo+Wild",
+    "previewImage": "https://via.placeholder.com/800x450?text=NatGeo+Wild",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Prédateurs sauvages",
+      "startTime": "20:50",
+      "endTime": "21:45",
+      "progressPercentage": 60
+    }
+  },
+  {
+    "id": "12",
+    "channelNumber": "1076",
+    "name": "FR - ARTE FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=Arte",
+    "previewImage": "https://via.placeholder.com/800x450?text=Arte",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Le monde en perspective",
+      "startTime": "21:05",
+      "endTime": "22:00",
+      "progressPercentage": 20
+    }
+  },
+  {
+    "id": "13",
+    "channelNumber": "1077",
+    "name": "FR - TOUTE L'HISTOIRE FHD",
+    "category": "DOCUMENTAIRE",
+    "logo": "https://via.placeholder.com/60x60?text=Toute+Histoire",
+    "previewImage": "https://via.placeholder.com/800x450?text=Toute+Histoire",
+    "streamUrl": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "isLive": true,
+    "epg": {
+      "currentProgram": "Les civilisations oubliées",
+      "startTime": "20:30",
+      "endTime": "21:25",
+      "progressPercentage": 80
+    }
+  }
+]

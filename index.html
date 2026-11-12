@@ -35,8 +35,8 @@
             <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Documentaires</button>
             <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Actualitées</button>
         </div>
-        <div class="flex flex-col gap-2" >
-              <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
+        <div id="element" class="flex flex-col gap-2" >
+              <!-- <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
                 <span>Discovery ID FHD</span>
                 <span>Arctique : territoire sauvage</span>
               </button>
@@ -63,18 +63,30 @@
             <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
                  <span>Discovery ID FHD</span>
                 <span>Arctique : territoire sauvage</span>
-            </button>
-            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
-                 <span>Discovery ID FHD</span>
-                <span>Arctique : territoire sauvage</span>
-            </button>
+            </button> -->
+            <!-- <button  class="md:hover:bg-blue-600 bg-blue-800 flex flex-row items-center gap-4 rounded-lg p-4"> -->
+                    <!-- <span class="text-white font-sans">1057</span>
+                    <img src="play.jpg" class="h-10 rounded-md" alt=""> -->
+                    <!-- <div class="flex flex-col gap-1">
+                        <span class="text-white font-semibold">Discovery ID FHD</span>
+                         <small class="text-gray-500 font-sans">Arctique : territoire sauvage</small> -->
+                        <!-- <div class="w-full h-1 rounded-lg bg-slate-500">
+                            <div class="w-[50%] h-1 rounded-lg bg-blue-950"></div>
+                        </div> -->
+                    <!-- </div> --> 
+            <!-- </button> -->
         </div>
         </aside>
     <main class="p-4 ">
         <small class="bg-red-600 rounded-md absolute px-2 py-1 m-1">Live</small>
-        <img class="rounded-lg h-100 w-300 " src="real.jpeg" alt="">
+        <img 
+    id="channelImage"
+    class="rounded-lg h-100 w-full object-cover"
+    src="real.jpeg"
+    alt="Selected channel"
+>
     </main>
     </div>
-  <script type="module" src="main.js"></script>
+  <script type="module" src="main.js" defer></script>
 </body>
 </html>

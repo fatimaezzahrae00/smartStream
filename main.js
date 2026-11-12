@@ -1,2 +1,5 @@
 import { getData } from "./api.js";
-getData();
+import { afficher } from "./ui.js";
+const channels = await getData();
+afficher(channels);
+console.log(channels);

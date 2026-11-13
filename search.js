@@ -15,10 +15,4 @@ export function initSearch(channels) {
         afficher(filtered);
     });
 }
-// export function filterItems(filter) {
-//     filterBtns.forEach(btn => {
-//         btn.addEventListener("click", () => {
-            
-//         });
-//     });
-// }
+

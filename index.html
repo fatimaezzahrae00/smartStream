@@ -29,11 +29,11 @@
        <input id="filterInput" type="text"
        placeholder="Rechercher une chaine .. "
        class="border border-gray-300 rounded-lg px-4 py-2 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-white">
-        <div class="flex gap-2">
-            <button class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Toutes</button>
-            <button class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Sports</button>
-            <button class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Documentaires</button>
-            <button class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Enfant</button>
+        <div class="flex gap-2" id="btnscontainer">
+            <button id="all" class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Toutes</button>
+            <button id="Sport" class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Sports</button>
+            <button id="Documentaire" class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Documentaires</button>
+            <button id="Enfant" class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Enfant</button>
         </div>
         <div id="element" class="flex flex-col gap-2 overflow-auto h-120" >
               <!-- <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">

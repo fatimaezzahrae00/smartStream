@@ -7,7 +7,7 @@ export function afficher(channels) {
 
     channels.forEach((channel) => {
         element.innerHTML += `
-            <button class="md:hover:bg-blue-600 bg-blue-800 flex flex-row items-center gap-4 rounded-lg p-4">
+            <button data-categ="${channel.category}" class="md:hover:bg-blue-600 bg-blue-800 flex flex-row items-center gap-4 rounded-lg p-4">
                 <span class="text-white font-sans">${channel.channelNumber}</span>
 
                 <img src="${channel.logo}" class="h-10 rounded-md" alt="">

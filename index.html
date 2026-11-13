@@ -10,7 +10,7 @@
     <header class="flex justify-between items-center px-6 py-3 border-b border-white/10 bg-slate-950">
         <img class="rounded-lg" src="play.jpg" alt="logo" height="50px" width="40px">
         <nav class=" flex items-center gap-4 ">
-            <button class=md:hover:bg-blue-600 bg-blue-800 text-red-300 rounded-lg px-2 py-1">En direct</button>
+            <button class="md:hover:bg-blue-600 bg-blue-800 text-red-300 rounded-lg px-2 py-1">En direct</button>
             <button class="md:hover:bg-blue-600 bg-blue-800 text-red-300 rounded-lg px-2 py-1">Sports</button>
             <button class="md:hover:bg-blue-600 bg-blue-800 text-red-300 rounded-lg px-2 py-1">Documentaires</button>
     
@@ -26,16 +26,16 @@
         <span class="text-sm md:text-md lg:text-md text-gray-200">8 Chaines</span>
         </div>
         <label></label>
-       <input type="text"
+       <input id="filterInput" type="text"
        placeholder="Rechercher une chaine .. "
        class="border border-gray-300 rounded-lg px-4 py-2 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-white">
         <div class="flex gap-2">
-            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Toutes</button>
-            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Sports</button>
-            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Documentaires</button>
-            <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Actualitées</button>
+            <button class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Toutes</button>
+            <button class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Sports</button>
+            <button class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Documentaires</button>
+            <button class="filter-btn md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg px-2 py-1">Enfant</button>
         </div>
-        <div id="element" class="flex flex-col gap-2" >
+        <div id="element" class="flex flex-col gap-2 overflow-auto h-120" >
               <!-- <button class="md:hover:bg-blue-600 bg-blue-800 text-white rounded-lg p-4">
                 <span>Discovery ID FHD</span>
                 <span>Arctique : territoire sauvage</span>
@@ -79,12 +79,8 @@
         </aside>
     <main class="p-4 ">
         <small class="bg-red-600 rounded-md absolute px-2 py-1 m-1">Live</small>
-        <img 
-    id="channelImage"
-    class="rounded-lg h-100 w-full object-cover"
-    src="real.jpeg"
-    alt="Selected channel"
->
+        <img id="channelImage" class="rounded-lg h-140 w-full" src="real.jpeg" alt="">
+        <p id="para" class="font-bold"> </p>
     </main>
     </div>
   <script type="module" src="main.js" defer></script>

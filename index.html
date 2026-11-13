@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@videojs/cdn@10.4.0/video.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@videojs/cdn@10.4.0/media/hlsjs-video.js"></script>
     <title>Smart Stream</title>
 </head>
 <body class="bg-slate-950 text-white min-h-screen flex flex-col">
@@ -78,9 +80,10 @@
         </div>
         </aside>
     <main class="p-4 ">
-        <small class="bg-red-600 rounded-md absolute px-2 py-1 m-1">Live</small>
-        <img id="channelImage" class="rounded-lg h-140 w-full" src="real.jpeg" alt="">
-        <p id="para" class="font-bold"> </p>
+        <!-- <small class="bg-red-600 rounded-md absolute px-2 py-1 m-1">Live</small> -->
+        <div id="video">
+        </div>
+        <p id="para" class="font-bold m-3 text-3xl p-5"> </p>
     </main>
     </div>
   <script type="module" src="main.js" defer></script>

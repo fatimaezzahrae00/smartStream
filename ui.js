@@ -25,7 +25,13 @@ export function afficher(channels) {
 
     buttons.forEach((button, index) => {
         button.addEventListener("click", () => {
-            channelImage.src = channels[index].previewImage;
+            const video = document.getElementById('video')
+            video.innerHTML = `
+<video-player>
+  <video-skin style="display: block; width: 100%; aspect-ratio: 16 / 9; --media-controls-before-start: visible;">
+    <hlsjs-video src="https://stream.mux.com/BV3YZtogl89mg9VcNBhhnHm02Y34zI1nlMuMQfAbl3dM.m3u8" playsinline></hlsjs-video>
+  </video-skin>
+</video-player>`
             para.textContent = channels[index].name;
         });
     });
